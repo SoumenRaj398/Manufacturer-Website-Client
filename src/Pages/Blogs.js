@@ -7,6 +7,7 @@ const Blogs = () => {
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mx-12">
         
         <div className="card bg-base-100 shadow-xl">
+    //
           <div className="card-body">
             <h2 className="card-title text-secondary">
               1. How will you improve the performance of a React Application?
