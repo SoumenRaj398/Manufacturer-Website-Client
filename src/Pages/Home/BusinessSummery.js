@@ -53,7 +53,7 @@ const BusinessSummery = () => {
     <div className="stat-value text-secondary">31K</div>
     <div className="stat-desc">From 2015 to now</div>
   </div>
-  
+    {}
   <div className="stat">
     <div className="stat-title">Company</div>
     <div className="stat-value text-primary">4,200</div>
