@@ -5,6 +5,8 @@ import auth from "../../firebase.init";
 import Quantity from "./Quantity";
 import { toast } from "react-toastify";
 
+//
+
 const Purchase = () => {
   const { purchaseId } = useParams();
   const [user, loading, error] = useAuthState(auth);
