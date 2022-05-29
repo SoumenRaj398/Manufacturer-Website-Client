@@ -6,6 +6,8 @@ import Loading from '../Shared/Loading';
 import { Link, useNavigate } from 'react-router-dom';
 import useToken from '../../Hooks/UseToken';
 
+//
+
 const SignUp = () => {
     const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
     const { register, formState: { errors }, handleSubmit } = useForm();
