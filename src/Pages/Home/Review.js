@@ -1,5 +1,7 @@
 import React from 'react';
 
+//
+
 const Review = ({review}) => {
     
 const {name,comment,rating}=review
